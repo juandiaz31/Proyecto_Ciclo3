@@ -1,10 +1,12 @@
 import React from "react";
+import { Productos } from "./componentes/Productos";
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Prueba</h1>
+      <Productos />
+      
     </div>
   );
 }
